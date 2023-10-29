@@ -1,0 +1,83 @@
+
+:root {
+  --primary-color: rgb(245, 242, 254);
+  --roboto-font:font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+a {
+  color: rgb(132, 99, 255);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  
+ 
+}
+a:visited {
+  color: blueviolet;
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 75px;
+  font-weight: 500px;
+}
+h2 {
+  color: rgb(76, 76, 76);
+  position: relative;
+  bottom: 33px;
+}
+.column {
+  display: flex;
+}
+.column-one {
+  display: flex;
+  flex: 1;
+  font-size: 17px;
+  text-align: center;
+  background-color: var(--primary-color);
+  text-align: center;
+  margin:  20px;
+  padding-left: 5px;
+  font-family: var(--roboto-font);
+ 
+}
+.contact-icon{
+  position: relative;
+  left: 30px;
+}
+.contact-info{
+  position: relative;
+  bottom: 40px;
+}
+
+.contact-link{
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+
+.email-link{
+  font-size: 25px;
+  position: relative;
+  bottom:42px;
+  left: 70px;
+  text-decoration: none;
+}
+.homepage-link {
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+  
+}
+
