@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(245, 242, 254);
+  --secondary-color:rgb(132, 99, 255);
   --roboto-font:font-family: 'Inclusive Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -19,12 +20,9 @@ a {
 a:visited {
   color: blueviolet;
 }
-body {
-  margin: 60px auto;
+body{
   max-width: 800px;
-}
-h1,
-h2 {
+  margin: 60px auto;
   text-align: center;
 }
 h1 {
